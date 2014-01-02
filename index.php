@@ -68,7 +68,7 @@ require_once('inc/code.php');
 			$('#picker').farbtastic('#color');
 		});
 	</script>
-	Color Piker:<br>
+	Color Picker:<br>
 	<form>
 		<input type="text" id="color" name="color" class="input" value="#000000">
 	</form>
