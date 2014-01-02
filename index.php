@@ -1,6 +1,13 @@
 <?php
 // не показываем ошибки
 error_reporting(0);
+
+require_once ('inc/google.php');
+require_once ('inc/yandex.php');
+require_once ('inc/whois.php');
+require_once ('inc/ip.php');
+require_once ('inc/passwd.php');
+require_once ('inc/code.php');
 ?>
 <!DOCTYPE html>
 <html lang="ru">
@@ -17,15 +24,6 @@ error_reporting(0);
 </head>
 
 <body>
-	<?php
-	require_once ('inc/google.php');
-	require_once ('inc/yandex.php');
-	require_once ('inc/whois.php');
-	require_once ('inc/ip.php');
-	require_once ('inc/passwd.php');
-	require_once ('inc/code.php');
-	?>
-
 	<!--PR & CY-->
 	PR &amp; CY:<br>
 	<form method="post">
